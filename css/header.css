@@ -1,0 +1,33 @@
+#primary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:25px ;
+}
+  /* nesting css*/
+  #primary div:nth-child(2){
+    margin-inline: auto;
+  } 
+
+
+.Menu{
+  display: flex;
+  gap: 8px;
+}
+
+.Buscar{
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.linha {
+  border: none;
+  height: 2px;
+  background-color: var(--stroke-color);
+  margin: 20px 0;
+}
+
+#secondary{
+justify-content: space-evenly;
+}
