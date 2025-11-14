@@ -18,4 +18,36 @@
     background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
 
   }
+  figcaption{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    
+    &:has(.text-lg){
+      padding: 12px;
+    }
+
+  }
+  h2{
+    margin-top: 8px;
+  }
+}
+
+.mais-lidas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mais-lidas > span{
+font: var(--text-span);
+}
+
+.ver-tudo a {
+  display: flex;
+  gap: 10px; 
+  font: var(--text-span);
+  cursor: pointer;
+}
+.ver-tudo a:hover {
+  color:var(--brand-color-light);
 }

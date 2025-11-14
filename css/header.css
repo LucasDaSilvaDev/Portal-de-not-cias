@@ -28,6 +28,10 @@
   margin: 20px 0;
 }
 
+.linha-2{
+  margin-top: 80px;
+}
+
 #secondary{
 justify-content: space-evenly;
 }
