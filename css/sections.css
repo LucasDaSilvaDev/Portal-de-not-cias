@@ -51,3 +51,77 @@ font: var(--text-span);
 .ver-tudo a:hover {
   color:var(--brand-color-light);
 }
+
+#imagens-mais-lidas .destaques-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+
+}
+
+#imagens-mais-lidas{
+  img{
+    height: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  figure{
+    position: relative;
+    .content-tag{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+  }
+  p{
+    margin-top: 8px;
+    font-weight: 800;
+  }
+}
+
+.final-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.final-cards > span{
+font: var(--text-span);
+}
+
+.final-cards a {
+  display: flex;
+  gap: 10px; 
+  font: var(--text-span);
+  cursor: pointer;
+}
+.ver-tudo a:hover {
+  color:var(--brand-color-light);
+}
+
+#destaques-ia{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+#destaques-ia{
+  img{
+    height:px;
+   border-radius: 4px;
+    object-fit: cover;
+  }
+  figure{
+    position: relative;
+    .content-tag{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+  }
+  p{
+    margin-top: 8px;
+    font-weight: 800;
+  }
+}
